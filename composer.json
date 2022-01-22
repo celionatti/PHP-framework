@@ -1,0 +1,20 @@
+{
+    "name": "user/framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "nattiframework\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Celio Natti",
+            "email": "celionatti@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
